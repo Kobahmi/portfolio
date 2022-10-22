@@ -1,6 +1,6 @@
 import React from "react";
 import teslagif from "../images/tesla.gif";
-
+import Fade from "react-reveal/Fade";
 import shoppinggif from "../images/shopping.gif";
 import Flip from "react-reveal/Flip";
 import html from "../images/html.svg";
@@ -47,7 +47,9 @@ const First = () => {
             </div>
           </div>
         </Flip>
-        <img className="info-gif" src={teslagif} alt="tesla gif" />
+        <Fade>
+          <img className="info-gif" src={teslagif} alt="tesla gif" />
+        </Fade>
       </div>
       <div className="project">
         <img className="info-gif" src={shoppinggif} alt="shoppy" />
