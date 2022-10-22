@@ -15,21 +15,24 @@
   --medium-font-size: 4rem;
 }
 
+body {
+  font-family: var(--normal-font);
+}
+
+section {
+  min-height: 100vh;
+}
+
 .App {
   width: 100vw;
   height: 100vh;
   overflow-y: scroll;
   scroll-behavior: smooth;
   scroll-snap-type: block mandatory;
-  font-family: var(--normal-font);
 }
 
 ul {
   list-style: none;
-}
-
-section {
-  min-height: 100vh;
 }
 
 .arrow-button {
@@ -222,10 +225,6 @@ section {
   object-fit: fill;
   width: 40rem;
   height: 30rem;
-}
-
-.first-page {
-  scroll-snap-align: center;
 }
 
 .button-container {
@@ -496,6 +495,10 @@ section {
     font-size: 1.5rem;
   }
 
+  .first-page {
+    padding: 0;
+  }
+
   .first-page p {
     font-size: 0.7rem;
   }
@@ -507,10 +510,6 @@ section {
 
   .skills-page h1 {
     font-size: 4rem;
-  }
-
-  .project {
-    gap: 0;
   }
 
   .technologies-container {
@@ -552,6 +551,8 @@ section {
 
   .project {
     width: 270px;
+    height: auto;
+    gap: 0;
   }
 
   .project p {
