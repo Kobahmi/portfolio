@@ -21,7 +21,7 @@ const Second = () => {
     <section className="first-page">
       <div className="project">
         {" "}
-        <Flip left cascade>
+        <Flip bottom cascade>
           <div className="text-info">
             <h1>Battlecat Game</h1>
             <div className="technologies-container">
@@ -58,7 +58,7 @@ const Second = () => {
         <Flip top>
           <img className="info-gif" src={memory} alt="shoppy" />
         </Flip>
-        <Flip left cascade>
+        <Flip bottom cascade>
           <div className="text-info">
             <h1>Memory Game</h1>
             <div className="technologies-container">

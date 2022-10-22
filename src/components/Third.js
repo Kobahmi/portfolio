@@ -18,7 +18,7 @@ const Third = () => {
     <section className="first-page">
       <div className="project">
         {" "}
-        <Flip left cascade>
+        <Flip bottom cascade>
           <div className="text-info">
             <h1>Weather App</h1>
             <div className="technologies-container">
@@ -55,7 +55,7 @@ const Third = () => {
         <Flip top>
           <img className="info-gif" src={library} alt="library" />
         </Flip>
-        <Flip left cascade>
+        <Flip bottom cascade>
           <div className="text-info">
             <h1>Library App</h1>
             <div className="technologies-container">
