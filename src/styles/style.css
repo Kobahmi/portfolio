@@ -35,7 +35,7 @@ section {
 .arrow-button {
   position: absolute;
   bottom: 5%;
-  left: 50%;
+  left: 48%;
   transform: translate(-50%, -50%);
   animation: jiggle 1s linear alternate infinite;
 }
@@ -189,6 +189,7 @@ section {
 
 .first-page h1 {
   font-size: var(--medium-font-size);
+  white-space: nowrap;
 }
 
 .first-page p {
@@ -331,10 +332,6 @@ section {
     height: 2rem;
   }
 
-  .first-page {
-    height: 100vh;
-  }
-
   .first-page h1 {
     font-size: 2rem;
   }
@@ -401,10 +398,6 @@ section {
     align-items: center;
     text-align: center;
     gap: 0;
-  }
-
-  .first-page {
-    height: 100vh;
   }
 
   .first-page h1 {
@@ -517,7 +510,6 @@ section {
   }
 
   .project {
-    height: 100vh;
     gap: 0;
   }
 
@@ -550,8 +542,8 @@ section {
   }
 
   .info-gif {
-    width: 10rem;
-    height: 8rem;
+    width: 12rem;
+    height: 10rem;
   }
 
   .skills-container li {
