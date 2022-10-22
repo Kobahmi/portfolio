@@ -1,8 +1,8 @@
 import React from "react";
 import teslagif from "../images/tesla.gif";
-import Fade from "react-reveal/Fade";
+
 import shoppinggif from "../images/shopping.gif";
-import Flip from "react-reveal/Flip";
+
 import html from "../images/html.svg";
 import css from "../images/css.svg";
 import js from "../images/js.svg";
@@ -45,14 +45,10 @@ const First = () => {
           </div>
         </div>
 
-        <Fade right>
-          <img className="info-gif" src={teslagif} alt="tesla gif" />
-        </Fade>
+        <img className="info-gif" src={teslagif} alt="tesla gif" />
       </div>
       <div className="project">
-        <Fade left>
-          <img className="info-gif" src={shoppinggif} alt="shoppy" />
-        </Fade>
+        <img className="info-gif" src={shoppinggif} alt="shoppy" />
 
         <div className="text-info">
           <h1>Unreal Polish</h1>
