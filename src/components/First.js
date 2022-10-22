@@ -2,7 +2,7 @@ import React from "react";
 import teslagif from "../images/tesla.gif";
 import Fade from "react-reveal/Fade";
 import shoppinggif from "../images/shopping.gif";
-import Flip from "react-reveal/Flip";
+import Bounce from "react-reveal/Bounce";
 import html from "../images/html.svg";
 import css from "../images/css.svg";
 import js from "../images/js.svg";
@@ -19,7 +19,7 @@ const First = () => {
     <section className="first-page">
       <div className="project">
         {" "}
-        <Flip top cascade>
+        <Bounce left cascade>
           <div className="text-info">
             <h1>Tesla Clone</h1>
             <div className="technologies-container">
@@ -46,7 +46,7 @@ const First = () => {
               </a>
             </div>
           </div>
-        </Flip>
+        </Bounce>
         <Fade>
           <img className="info-gif" src={teslagif} alt="tesla gif" />
         </Fade>
@@ -54,7 +54,7 @@ const First = () => {
       <div className="project">
         <img className="info-gif" src={shoppinggif} alt="shoppy" />
 
-        <Flip top cascade>
+        <Bounce right cascade>
           <div className="text-info">
             <h1>Unreal Polish</h1>
             <div className="technologies-container">
@@ -83,7 +83,7 @@ const First = () => {
               </a>
             </div>
           </div>
-        </Flip>
+        </Bounce>
       </div>
     </section>
   );

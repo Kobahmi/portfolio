@@ -51,12 +51,12 @@ const Second = () => {
             </div>
           </div>{" "}
         </Flip>
-        <Fade right>
+        <Fade>
           <img className="info-gif" src={battleship} alt="Battleship" />
         </Fade>
       </div>
       <div className="project">
-        <Fade left>
+        <Fade>
           <img className="info-gif" src={memory} alt="shoppy" />
         </Fade>
         <Flip top cascade>
