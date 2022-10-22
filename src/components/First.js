@@ -17,32 +17,26 @@ const First = () => {
   return (
     <section className="first-page">
       <div className="project">
-        {" "}
         <div className="text-info">
           <h1>
-            {" "}
             <Flip top cascade>
               Tesla Clone
             </Flip>
           </h1>
 
-          <Flip top>
-            <div className="technologies-container">
-              <img className="technologies" src={html} alt="html" />
-              <img className="technologies" src={css} alt="css" />
-              <img className="technologies" src={js} alt="js" />
-              <img className="technologies" src={react} alt="react" />
-              <img className="technologies" src={npm} alt="npm" />
-              <img className="technologies" src={git} alt="git" />
-              <img className="technologies" src={prettier} alt="prettier" />
-            </div>
-          </Flip>
+          <div className="technologies-container">
+            <img className="technologies" src={html} alt="html" />
+            <img className="technologies" src={css} alt="css" />
+            <img className="technologies" src={js} alt="js" />
+            <img className="technologies" src={react} alt="react" />
+            <img className="technologies" src={npm} alt="npm" />
+            <img className="technologies" src={git} alt="git" />
+            <img className="technologies" src={prettier} alt="prettier" />
+          </div>
 
           <p>
-            <Flip top>
-              Web app designed to look like Tesla's UI. Fully responsive, tablet
-              and phone friendly.
-            </Flip>
+            Web app designed to look like Tesla's UI. Fully responsive, tablet
+            and phone friendly.
           </p>
 
           <Flip top>
@@ -66,29 +60,27 @@ const First = () => {
         <Flip top>
           <img className="info-gif" src={shoppinggif} alt="shoppy" />
         </Flip>
-
         <div className="text-info">
           <Flip top cascade>
             <h1>Unreal Polish</h1>
           </Flip>
-          <Flip top>
-            <div className="technologies-container">
-              <img className="technologies" src={html} alt="html" />
-              <img className="technologies" src={css} alt="css" />
-              <img className="technologies" src={js} alt="js" />
-              <img className="technologies" src={react} alt="react" />
-              <img className="technologies" src={npm} alt="npm" />
-              <img className="technologies" src={git} alt="git" />
-              <img className="technologies" src={prettier} alt="prettier" />
-              <img className="technologies" src={router} alt="router" />
-            </div>
-          </Flip>
-          <Flip top>
-            <p>
-              Web shopping app to buy nail polish. Fully responsive, tablet and
-              phone friendly.
-            </p>
-          </Flip>
+
+          <div className="technologies-container">
+            <img className="technologies" src={html} alt="html" />
+            <img className="technologies" src={css} alt="css" />
+            <img className="technologies" src={js} alt="js" />
+            <img className="technologies" src={react} alt="react" />
+            <img className="technologies" src={npm} alt="npm" />
+            <img className="technologies" src={git} alt="git" />
+            <img className="technologies" src={prettier} alt="prettier" />
+            <img className="technologies" src={router} alt="router" />
+          </div>
+
+          <p>
+            Web shopping app to buy nail polish. Fully responsive, tablet and
+            phone friendly.
+          </p>
+
           <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/shopping-cart/">

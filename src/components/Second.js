@@ -15,34 +15,32 @@ import eslint from "../images/eslint.png";
 import jest from "../images/jest.png";
 import github from "../images/github.svg";
 import computer from "../images/computer.svg";
-import Fade from "react-reveal/Fade";
 
 const Second = () => {
   return (
     <section className="first-page">
       <div className="project">
         <div className="text-info">
-          <Fade top cascade>
+          <Flip top cascade>
             <h1>Battlecat Game</h1>
-          </Fade>
-          <Flip top>
-            <div className="technologies-container">
-              <img className="technologies" src={js} alt="js" />
-              <img className="technologies" src={webpack} alt="react" />
-              <img className="technologies" src={npm} alt="npm" />
-              <img className="technologies" src={git} alt="git" />
-              <img className="technologies" src={prettier} alt="prettier" />
-              <img className="technologies" src={test} alt="prettier" />
-              <img className="technologies" src={eslint} alt="eslint" />
-              <img className="technologies" src={jest} alt="jest" />
-            </div>
           </Flip>
-          <Fade left>
-            <p>
-              Battleship game web app, but with cats! Player versus Computer.
-              Responsive design.
-            </p>
-          </Fade>
+
+          <div className="technologies-container">
+            <img className="technologies" src={js} alt="js" />
+            <img className="technologies" src={webpack} alt="react" />
+            <img className="technologies" src={npm} alt="npm" />
+            <img className="technologies" src={git} alt="git" />
+            <img className="technologies" src={prettier} alt="prettier" />
+            <img className="technologies" src={test} alt="prettier" />
+            <img className="technologies" src={eslint} alt="eslint" />
+            <img className="technologies" src={jest} alt="jest" />
+          </div>
+
+          <p>
+            Battleship game web app, but with cats! Player versus Computer.
+            Responsive design.
+          </p>
+
           <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/battleship/">
@@ -66,26 +64,25 @@ const Second = () => {
         </Flip>
 
         <div className="text-info">
-          <Fade top cascade>
+          <Flip top cascade>
             <h1>Memory Game</h1>
-          </Fade>
-          <Flip top>
-            <div className="technologies-container">
-              <img className="technologies" src={html} alt="html" />
-              <img className="technologies" src={css} alt="css" />
-              <img className="technologies" src={js} alt="js" />
-              <img className="technologies" src={react} alt="react" />
-              <img className="technologies" src={npm} alt="npm" />
-              <img className="technologies" src={git} alt="git" />
-              <img className="technologies" src={prettier} alt="prettier" />
-            </div>
           </Flip>
-          <Fade right>
-            <p>
-              Memory game app with Eevee and friends! Fully responsive, tablet
-              and phone friendly.
-            </p>
-          </Fade>
+
+          <div className="technologies-container">
+            <img className="technologies" src={html} alt="html" />
+            <img className="technologies" src={css} alt="css" />
+            <img className="technologies" src={js} alt="js" />
+            <img className="technologies" src={react} alt="react" />
+            <img className="technologies" src={npm} alt="npm" />
+            <img className="technologies" src={git} alt="git" />
+            <img className="technologies" src={prettier} alt="prettier" />
+          </div>
+
+          <p>
+            Memory game app with Eevee and friends! Fully responsive, tablet and
+            phone friendly.
+          </p>
+
           <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/memory-card-game/">

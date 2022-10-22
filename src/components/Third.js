@@ -12,34 +12,32 @@ import webpack from "../images/webpack.svg";
 import eslint from "../images/eslint.png";
 import github from "../images/github.svg";
 import computer from "../images/computer.svg";
-import Fade from "react-reveal/Fade";
 
 const Third = () => {
   return (
     <section className="first-page">
       <div className="project">
         <div className="text-info">
-          <Fade top cascade>
+          <Flip top cascade>
             <h1>Weather App</h1>
-          </Fade>
-          <Flip top>
-            <div className="technologies-container">
-              <img className="technologies" src={html} alt="html" />
-              <img className="technologies" src={css} alt="css" />
-              <img className="technologies" src={js} alt="js" />
-              <img className="technologies" src={webpack} alt="react" />
-              <img className="technologies" src={npm} alt="npm" />
-              <img className="technologies" src={git} alt="git" />
-              <img className="technologies" src={prettier} alt="prettier" />
-              <img className="technologies" src={eslint} alt="eslint" />
-            </div>
           </Flip>
-          <Fade left>
-            <p>
-              Minimalist weather app with imperial and metric units. Fully
-              responsive, tablet and phone friendly.
-            </p>
-          </Fade>
+
+          <div className="technologies-container">
+            <img className="technologies" src={html} alt="html" />
+            <img className="technologies" src={css} alt="css" />
+            <img className="technologies" src={js} alt="js" />
+            <img className="technologies" src={webpack} alt="react" />
+            <img className="technologies" src={npm} alt="npm" />
+            <img className="technologies" src={git} alt="git" />
+            <img className="technologies" src={prettier} alt="prettier" />
+            <img className="technologies" src={eslint} alt="eslint" />
+          </div>
+
+          <p>
+            Minimalist weather app with imperial and metric units. Fully
+            responsive, tablet and phone friendly.
+          </p>
+
           <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/weather-app/">
@@ -63,25 +61,24 @@ const Third = () => {
         </Flip>
 
         <div className="text-info">
-          <Fade top cascade>
+          <Flip top cascade>
             <h1>Library App</h1>
-          </Fade>
-          <Flip top>
-            <div className="technologies-container">
-              <img className="technologies" src={html} alt="html" />
-              <img className="technologies" src={css} alt="css" />
-              <img className="technologies" src={js} alt="js" />
-              <img className="technologies" src={npm} alt="npm" />
-              <img className="technologies" src={git} alt="git" />
-              <img className="technologies" src={prettier} alt="prettier" />
-            </div>
           </Flip>
-          <Fade right>
-            <p>
-              Virtual library web app. Fully responsive, tablet and phone
-              friendly.
-            </p>
-          </Fade>
+
+          <div className="technologies-container">
+            <img className="technologies" src={html} alt="html" />
+            <img className="technologies" src={css} alt="css" />
+            <img className="technologies" src={js} alt="js" />
+            <img className="technologies" src={npm} alt="npm" />
+            <img className="technologies" src={git} alt="git" />
+            <img className="technologies" src={prettier} alt="prettier" />
+          </div>
+
+          <p>
+            Virtual library web app. Fully responsive, tablet and phone
+            friendly.
+          </p>
+
           <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/Library/">
