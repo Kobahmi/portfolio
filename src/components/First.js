@@ -19,7 +19,7 @@ const First = () => {
     <section className="first-page">
       <div className="project">
         {" "}
-        <Flip top cascade>
+        <Fade left cascade>
           <div className="text-info">
             <h1>Tesla Clone</h1>
             <div className="technologies-container">
@@ -46,15 +46,17 @@ const First = () => {
               </a>
             </div>
           </div>
-        </Flip>
-        <Fade>
-          <img className="info-gif" src={teslagif} alt="tesla gif" />
         </Fade>
+        <Flip top>
+          <img className="info-gif" src={teslagif} alt="tesla gif" />
+        </Flip>
       </div>
       <div className="project">
-        <img className="info-gif" src={shoppinggif} alt="shoppy" />
+        <Flip top>
+          <img className="info-gif" src={shoppinggif} alt="shoppy" />
+        </Flip>
 
-        <Flip top cascade>
+        <Fade right cascade>
           <div className="text-info">
             <h1>Unreal Polish</h1>
             <div className="technologies-container">
@@ -83,7 +85,7 @@ const First = () => {
               </a>
             </div>
           </div>
-        </Flip>
+        </Fade>
       </div>
     </section>
   );

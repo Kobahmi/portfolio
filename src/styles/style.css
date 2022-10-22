@@ -209,6 +209,7 @@ ul {
 .text-info {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 .technologies-container {

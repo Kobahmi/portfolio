@@ -48,12 +48,12 @@ const Third = () => {
             </div>
           </div>{" "}
         </Flip>
-        <Fade>
+        <Fade right>
           <img className="info-gif" src={weather} alt="weather" />
         </Fade>
       </div>
       <div className="project">
-        <Fade>
+        <Fade left>
           <img className="info-gif" src={library} alt="library" />
         </Fade>
         <Flip top cascade>
