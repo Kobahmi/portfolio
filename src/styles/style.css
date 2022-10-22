@@ -320,7 +320,7 @@ section {
 @media screen and (max-width: 1280px) {
   .skills-grid {
     grid-template-columns: 1fr;
-    top: 1%;
+    top: 5%;
     left: 80%;
     gap: 0rem;
     font-size: 2rem;
@@ -366,6 +366,10 @@ section {
     font-size: 10rem;
   }
 
+  .about-page p {
+    font-size: 10rem;
+  }
+
   .skills-page h1 {
     font-size: 10rem;
   }
@@ -380,10 +384,7 @@ section {
 
   .skills-grid {
     grid-template-columns: 1fr;
-    top: 1%;
-
     gap: 0rem;
-
     left: 30%;
     font-size: 1.5rem;
     width: 10rem;
@@ -527,6 +528,7 @@ section {
   .contact-page h1 {
     font-size: 4rem;
     left: 4%;
+    top: 35%;
   }
 
   .contact-page img {
@@ -554,5 +556,13 @@ section {
 
   .skills-container li {
     font-size: 0.9rem;
+  }
+
+  .project {
+    width: 270px;
+  }
+
+  .project p {
+    width: 100%;
   }
 }
