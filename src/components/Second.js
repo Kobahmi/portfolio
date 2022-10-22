@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import html from "../images/html.svg";
 import css from "../images/css.svg";
@@ -22,7 +21,7 @@ const Second = () => {
     <section className="first-page">
       <div className="project">
         {" "}
-        <Flip top cascade>
+        <Flip left cascade>
           <div className="text-info">
             <h1>Battlecat Game</h1>
             <div className="technologies-container">
@@ -51,15 +50,15 @@ const Second = () => {
             </div>
           </div>{" "}
         </Flip>
-        <Fade right>
+        <Flip top>
           <img className="info-gif" src={battleship} alt="Battleship" />
-        </Fade>
+        </Flip>
       </div>
       <div className="project">
-        <Fade left>
+        <Flip top>
           <img className="info-gif" src={memory} alt="shoppy" />
-        </Fade>
-        <Flip top cascade>
+        </Flip>
+        <Flip left cascade>
           <div className="text-info">
             <h1>Memory Game</h1>
             <div className="technologies-container">

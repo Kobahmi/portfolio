@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import html from "../images/html.svg";
 import css from "../images/css.svg";
@@ -19,7 +18,7 @@ const Third = () => {
     <section className="first-page">
       <div className="project">
         {" "}
-        <Flip top cascade>
+        <Flip left cascade>
           <div className="text-info">
             <h1>Weather App</h1>
             <div className="technologies-container">
@@ -48,15 +47,15 @@ const Third = () => {
             </div>
           </div>{" "}
         </Flip>
-        <Fade right>
+        <Flip top>
           <img className="info-gif" src={weather} alt="weather" />
-        </Fade>
+        </Flip>
       </div>
       <div className="project">
-        <Fade left>
+        <Flip top>
           <img className="info-gif" src={library} alt="library" />
-        </Fade>
-        <Flip top cascade>
+        </Flip>
+        <Flip left cascade>
           <div className="text-info">
             <h1>Library App</h1>
             <div className="technologies-container">
