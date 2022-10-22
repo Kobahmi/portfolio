@@ -12,7 +12,6 @@ import prettier from "../images/prettier.svg";
 import router from "../images/react-router.svg";
 import github from "../images/github.svg";
 import computer from "../images/computer.svg";
-import Fade from "react-reveal/Fade";
 
 const First = () => {
   return (
@@ -20,9 +19,13 @@ const First = () => {
       <div className="project">
         {" "}
         <div className="text-info">
-          <Fade top cascade>
-            <h1>Tesla Clone</h1>
-          </Fade>
+          <h1>
+            {" "}
+            <Flip top cascade>
+              Tesla Clone
+            </Flip>
+          </h1>
+
           <Flip top>
             <div className="technologies-container">
               <img className="technologies" src={html} alt="html" />
@@ -34,12 +37,14 @@ const First = () => {
               <img className="technologies" src={prettier} alt="prettier" />
             </div>
           </Flip>
-          <Fade left>
-            <p>
+
+          <p>
+            <Flip top>
               Web app designed to look like Tesla's UI. Fully responsive, tablet
               and phone friendly.
-            </p>{" "}
-          </Fade>
+            </Flip>
+          </p>
+
           <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/tesla-clone/">
@@ -63,9 +68,9 @@ const First = () => {
         </Flip>
 
         <div className="text-info">
-          <Fade top cascade>
+          <Flip top cascade>
             <h1>Unreal Polish</h1>
-          </Fade>
+          </Flip>
           <Flip top>
             <div className="technologies-container">
               <img className="technologies" src={html} alt="html" />
@@ -78,12 +83,12 @@ const First = () => {
               <img className="technologies" src={router} alt="router" />
             </div>
           </Flip>
-          <Fade right>
+          <Flip top>
             <p>
               Web shopping app to buy nail polish. Fully responsive, tablet and
               phone friendly.
             </p>
-          </Fade>
+          </Flip>
           <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/shopping-cart/">
