@@ -497,6 +497,8 @@ ul {
 
   .first-page {
     padding: 0;
+    justify-content: center;
+    gap: 1rem;
   }
 
   .first-page p {
@@ -541,8 +543,8 @@ ul {
   }
 
   .info-gif {
-    width: 12rem;
-    height: 10rem;
+    width: 13rem;
+    height: 11rem;
   }
 
   .skills-container li {
