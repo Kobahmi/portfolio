@@ -15,15 +15,17 @@ import eslint from "../images/eslint.png";
 import jest from "../images/jest.png";
 import github from "../images/github.svg";
 import computer from "../images/computer.svg";
+import Fade from "react-reveal/Fade";
 
 const Second = () => {
   return (
     <section className="first-page">
       <div className="project">
-        {" "}
-        <Flip bottom cascade>
-          <div className="text-info">
+        <div className="text-info">
+          <Fade top cascade>
             <h1>Battlecat Game</h1>
+          </Fade>
+          <Flip top>
             <div className="technologies-container">
               <img className="technologies" src={js} alt="js" />
               <img className="technologies" src={webpack} alt="react" />
@@ -34,10 +36,14 @@ const Second = () => {
               <img className="technologies" src={eslint} alt="eslint" />
               <img className="technologies" src={jest} alt="jest" />
             </div>
+          </Flip>
+          <Fade left>
             <p>
               Battleship game web app, but with cats! Player versus Computer.
               Responsive design.
             </p>
+          </Fade>
+          <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/battleship/">
                 Live
@@ -48,8 +54,8 @@ const Second = () => {
                 <img src={github} alt="github" />
               </a>
             </div>
-          </div>{" "}
-        </Flip>
+          </Flip>
+        </div>
         <Flip top>
           <img className="info-gif" src={battleship} alt="Battleship" />
         </Flip>
@@ -58,9 +64,12 @@ const Second = () => {
         <Flip top>
           <img className="info-gif" src={memory} alt="shoppy" />
         </Flip>
-        <Flip bottom cascade>
-          <div className="text-info">
+
+        <div className="text-info">
+          <Fade top cascade>
             <h1>Memory Game</h1>
+          </Fade>
+          <Flip top>
             <div className="technologies-container">
               <img className="technologies" src={html} alt="html" />
               <img className="technologies" src={css} alt="css" />
@@ -70,10 +79,14 @@ const Second = () => {
               <img className="technologies" src={git} alt="git" />
               <img className="technologies" src={prettier} alt="prettier" />
             </div>
+          </Flip>
+          <Fade right>
             <p>
               Memory game app with Eevee and friends! Fully responsive, tablet
               and phone friendly.
             </p>
+          </Fade>
+          <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/memory-card-game/">
                 Live
@@ -84,8 +97,8 @@ const Second = () => {
                 <img src={github} alt="github" />
               </a>
             </div>
-          </div>
-        </Flip>
+          </Flip>
+        </div>
       </div>
     </section>
   );

@@ -12,15 +12,18 @@ import prettier from "../images/prettier.svg";
 import router from "../images/react-router.svg";
 import github from "../images/github.svg";
 import computer from "../images/computer.svg";
+import Fade from "react-reveal/Fade";
 
 const First = () => {
   return (
     <section className="first-page">
       <div className="project">
         {" "}
-        <Flip bottom cascade>
-          <div className="text-info">
+        <div className="text-info">
+          <Fade top cascade>
             <h1>Tesla Clone</h1>
+          </Fade>
+          <Flip top>
             <div className="technologies-container">
               <img className="technologies" src={html} alt="html" />
               <img className="technologies" src={css} alt="css" />
@@ -30,10 +33,14 @@ const First = () => {
               <img className="technologies" src={git} alt="git" />
               <img className="technologies" src={prettier} alt="prettier" />
             </div>
+          </Flip>
+          <Fade left>
             <p>
               Web app designed to look like Tesla's UI. Fully responsive, tablet
               and phone friendly.
-            </p>
+            </p>{" "}
+          </Fade>
+          <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/tesla-clone/">
                 Live
@@ -44,8 +51,8 @@ const First = () => {
                 <img src={github} alt="github" />
               </a>
             </div>
-          </div>
-        </Flip>
+          </Flip>
+        </div>
         <Flip top>
           <img className="info-gif" src={teslagif} alt="tesla gif" />
         </Flip>
@@ -55,9 +62,11 @@ const First = () => {
           <img className="info-gif" src={shoppinggif} alt="shoppy" />
         </Flip>
 
-        <Flip bottom cascade>
-          <div className="text-info">
+        <div className="text-info">
+          <Fade top cascade>
             <h1>Unreal Polish</h1>
+          </Fade>
+          <Flip top>
             <div className="technologies-container">
               <img className="technologies" src={html} alt="html" />
               <img className="technologies" src={css} alt="css" />
@@ -68,11 +77,14 @@ const First = () => {
               <img className="technologies" src={prettier} alt="prettier" />
               <img className="technologies" src={router} alt="router" />
             </div>
+          </Flip>
+          <Fade right>
             <p>
               Web shopping app to buy nail polish. Fully responsive, tablet and
               phone friendly.
             </p>
-
+          </Fade>
+          <Flip top>
             <div className="button-container">
               <a href="https://kobahmi.github.io/shopping-cart/">
                 Live
@@ -83,8 +95,8 @@ const First = () => {
                 <img src={github} alt="github" />
               </a>
             </div>
-          </div>
-        </Flip>
+          </Flip>
+        </div>
       </div>
     </section>
   );
