@@ -21,7 +21,7 @@ const Name = () => {
           seed={3}
           seedInterval={10}
           onComplete={handleComplete}
-          text="Front-end Developper"
+          text="Front-end Developer"
         />
       </h2>
       <a href="#about-page" className="arrow-button">
