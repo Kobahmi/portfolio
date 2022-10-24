@@ -15,6 +15,7 @@ import eslint from "../images/eslint.png";
 import jest from "../images/jest.png";
 import github from "../images/github.svg";
 import computer from "../images/computer.svg";
+import Zoom from "react-reveal/Zoom";
 
 const Second = () => {
   return (
@@ -37,8 +38,8 @@ const Second = () => {
           </div>
 
           <p>
-            Battleship game web app, but with cats! Player versus Computer.
-            Responsive design.
+            Battleship web game created using Test Driven Development + Webpack
+            + ESLint + Javascript. Responsive design.
           </p>
 
           <Flip top>
@@ -54,14 +55,14 @@ const Second = () => {
             </div>
           </Flip>
         </div>
-        <Flip top>
+        <Zoom>
           <img className="info-gif" src={battleship} alt="Battleship" />
-        </Flip>
+        </Zoom>
       </div>
       <div className="project">
-        <Flip top>
+        <Zoom>
           <img className="info-gif" src={memory} alt="shoppy" />
-        </Flip>
+        </Zoom>
 
         <div className="text-info">
           <Flip top cascade>
@@ -79,8 +80,8 @@ const Second = () => {
           </div>
 
           <p>
-            Memory game app with Eevee and friends! Fully responsive, tablet and
-            phone friendly.
+            Memory game app with Eevee and friends! Created using React JS +
+            Functional Components. Fully responsive.
           </p>
 
           <Flip top>

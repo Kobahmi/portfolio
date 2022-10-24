@@ -36,8 +36,8 @@ const First = () => {
           </div>
 
           <p>
-            Web app designed to look like Tesla's UI. Fully responsive, tablet
-            and phone friendly.
+            Website created using React JS and designed to look like Tesla's UI.
+            Fully responsive, tablet and phone friendly.
           </p>
 
           <Flip top>
@@ -78,8 +78,8 @@ const First = () => {
           </div>
 
           <p>
-            Web shopping app to buy nail polish. Fully responsive, tablet and
-            phone friendly.
+            Web shopping app to buy nail polish created using React JS +
+            Functional Components. Fully responsive.
           </p>
 
           <Flip top>

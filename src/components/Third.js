@@ -12,6 +12,7 @@ import webpack from "../images/webpack.svg";
 import eslint from "../images/eslint.png";
 import github from "../images/github.svg";
 import computer from "../images/computer.svg";
+import Zoom from "react-reveal/Zoom";
 
 const Third = () => {
   return (
@@ -34,8 +35,8 @@ const Third = () => {
           </div>
 
           <p>
-            Minimalist weather app with imperial and metric units. Fully
-            responsive, tablet and phone friendly.
+            Minimalist weather app created using Async Code + API + Promises +
+            Webpack. Fully responsive.
           </p>
 
           <Flip top>
@@ -51,14 +52,14 @@ const Third = () => {
             </div>
           </Flip>
         </div>
-        <Flip top>
+        <Zoom>
           <img className="info-gif" src={weather} alt="weather" />
-        </Flip>
+        </Zoom>
       </div>
       <div className="project">
-        <Flip top>
+        <Zoom>
           <img className="info-gif" src={library} alt="library" />
-        </Flip>
+        </Zoom>
 
         <div className="text-info">
           <Flip top cascade>
@@ -75,8 +76,8 @@ const Third = () => {
           </div>
 
           <p>
-            Virtual library web app. Fully responsive, tablet and phone
-            friendly.
+            Virtual library web app created using Vanilla Javascript + CSS +
+            HTML. Fully responsive.
           </p>
 
           <Flip top>
