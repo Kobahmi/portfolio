@@ -9,7 +9,7 @@ const About = () => {
       </Fade>
 
       <p>
-        Front-end developper with a passion for new technologies and who cares
+        Front-end developer with a passion for new technologies and who cares
         deeply about user experience.
       </p>
     </section>
