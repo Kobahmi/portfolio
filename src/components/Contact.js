@@ -18,7 +18,7 @@ const Contact = () => {
         <a href="mailto:nobellamun@gmail.com">
           <img src={mail} alt="mail" />
         </a>
-        <a href="https://www.linkedin.com/in/nobel-lamun-4242b4246/">
+        <a href="https://www.linkedin.com/in/nobel-lamun/">
           <img src={linkedin} alt="linkedin" />
         </a>
       </div>
