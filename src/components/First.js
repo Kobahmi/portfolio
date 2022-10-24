@@ -12,7 +12,7 @@ import prettier from "../images/prettier.svg";
 import router from "../images/react-router.svg";
 import github from "../images/github.svg";
 import computer from "../images/computer.svg";
-import Rotate from "react-reveal/Rotate";
+import Zoom from "react-reveal/Zoom";
 
 const First = () => {
   return (
@@ -53,14 +53,14 @@ const First = () => {
             </div>
           </Flip>
         </div>
-        <Rotate top right>
+        <Zoom>
           <img className="info-gif" src={teslagif} alt="tesla gif" />
-        </Rotate>
+        </Zoom>
       </div>
       <div className="project">
-        <Rotate top left>
+        <Zoom>
           <img className="info-gif" src={shoppinggif} alt="shoppy" />
-        </Rotate>
+        </Zoom>
         <div className="text-info">
           <Flip top cascade>
             <h1>Unreal Polish</h1>
